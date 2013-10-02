@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F537FBF145C3B7B0098DEDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FBE145C3B7B0098DEDA /* UIKit.framework */; };
+		7F537FC1145C3B7B0098DEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FC0145C3B7B0098DEDA /* Foundation.framework */; };
+		7F537FC3145C3B7B0098DEDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FC2145C3B7B0098DEDA /* CoreGraphics.framework */; };
+		7F537FC9145C3B7B0098DEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F537FC7145C3B7B0098DEDA /* InfoPlist.strings */; };
+		7F537FCB145C3B7B0098DEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F537FCA145C3B7B0098DEDA /* main.m */; };
+		7F537FCF145C3B7B0098DEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F537FCE145C3B7B0098DEDA /* AppDelegate.m */; };
+		7F537FD2145C3B7B0098DEDA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F537FD0145C3B7B0098DEDA /* MainStoryboard_iPhone.storyboard */; };
+		7F537FD5145C3B7B0098DEDA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F537FD3145C3B7B0098DEDA /* MainStoryboard_iPad.storyboard */; };
+		7F537FD8145C3B7B0098DEDA /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F537FD7145C3B7B0098DEDA /* FBViewController.m */; };
+		7F537FE0145C3B7B0098DEDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FDF145C3B7B0098DEDA /* SenTestingKit.framework */; };
+		7F537FE1145C3B7B0098DEDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FBE145C3B7B0098DEDA /* UIKit.framework */; };
+		7F537FE2145C3B7B0098DEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FC0145C3B7B0098DEDA /* Foundation.framework */; };
+		7F537FEA145C3B7B0098DEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F537FE8145C3B7B0098DEDA /* InfoPlist.strings */; };
+		7F537FF7145C3BA80098DEDA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F537FF6145C3BA80098DEDA /* CoreBluetooth.framework */; };
+		DB0D089F174FDC1F0089CD9D /* FitbitDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D089E174FDC1F0089CD9D /* FitbitDevice.m */; };
+		DB0D08A2174FE0200089CD9D /* BTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D08A1174FE0200089CD9D /* BTPeripheral.m */; };
+		DB0D08A5174FF39C0089CD9D /* NSData+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D08A4174FF39C0089CD9D /* NSData+HexDump.m */; };
+		DB0D08A8175101F10089CD9D /* FBTrackerAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D08A7175101F10089CD9D /* FBTrackerAuth.m */; };
+		DB0D08AD1754F3C60089CD9D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0D08AC1754F3C60089CD9D /* icon.png */; };
+		DB0D08AF1754F3CA0089CD9D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0D08AE1754F3CA0089CD9D /* icon@2x.png */; };
+		DB53FE8C176249ED00E3F2E8 /* TrackerList.m in Sources */ = {isa = PBXBuildFile; fileRef = DB53FE8A176249ED00E3F2E8 /* TrackerList.m */; };
+		DB53FE8D176249ED00E3F2E8 /* TrackerList.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB53FE8B176249ED00E3F2E8 /* TrackerList.xib */; };
+		DB5702CE174ECC1A00FCA691 /* PacketHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5702CD174ECC1A00FCA691 /* PacketHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F537FE3145C3B7B0098DEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F537FB1145C3B7A0098DEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F537FB9145C3B7B0098DEDA;
+			remoteInfo = "FitbitTestApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F537FBA145C3B7B0098DEDA /* FitbitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitbitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F537FBE145C3B7B0098DEDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F537FC0145C3B7B0098DEDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F537FC2145C3B7B0098DEDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F537FC6145C3B7B0098DEDA /* FitbitTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitbitTestApp-Info.plist"; sourceTree = "<group>"; };
+		7F537FC8145C3B7B0098DEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F537FCA145C3B7B0098DEDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F537FCC145C3B7B0098DEDA /* FitbitTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitbitTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		7F537FCD145C3B7B0098DEDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F537FCE145C3B7B0098DEDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F537FD1145C3B7B0098DEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7F537FD4145C3B7B0098DEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7F537FD6145C3B7B0098DEDA /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		7F537FD7145C3B7B0098DEDA /* FBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		7F537FDE145C3B7B0098DEDA /* FitbitTestAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbitTestAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F537FDF145C3B7B0098DEDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F537FE7145C3B7B0098DEDA /* FitbitTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitbitTestAppTests-Info.plist"; sourceTree = "<group>"; };
+		7F537FE9145C3B7B0098DEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F537FF6145C3BA80098DEDA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DB0D089D174FDC1F0089CD9D /* FitbitDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitbitDevice.h; sourceTree = "<group>"; };
+		DB0D089E174FDC1F0089CD9D /* FitbitDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitbitDevice.m; sourceTree = "<group>"; };
+		DB0D08A0174FE0200089CD9D /* BTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeripheral.h; sourceTree = "<group>"; };
+		DB0D08A1174FE0200089CD9D /* BTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeripheral.m; sourceTree = "<group>"; };
+		DB0D08A3174FF39B0089CD9D /* NSData+HexDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HexDump.h"; sourceTree = "<group>"; };
+		DB0D08A4174FF39C0089CD9D /* NSData+HexDump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexDump.m"; sourceTree = "<group>"; };
+		DB0D08A6175101F10089CD9D /* FBTrackerAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTrackerAuth.h; sourceTree = "<group>"; };
+		DB0D08A7175101F10089CD9D /* FBTrackerAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTrackerAuth.m; sourceTree = "<group>"; };
+		DB0D08AC1754F3C60089CD9D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DB0D08AE1754F3CA0089CD9D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		DB53FE89176249ED00E3F2E8 /* TrackerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerList.h; sourceTree = "<group>"; };
+		DB53FE8A176249ED00E3F2E8 /* TrackerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerList.m; sourceTree = "<group>"; };
+		DB53FE8B176249ED00E3F2E8 /* TrackerList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerList.xib; sourceTree = "<group>"; };
+		DB5702CC174ECC1A00FCA691 /* PacketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketHandler.h; sourceTree = "<group>"; };
+		DB5702CD174ECC1A00FCA691 /* PacketHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F537FB7145C3B7B0098DEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F537FF7145C3BA80098DEDA /* CoreBluetooth.framework in Frameworks */,
+				7F537FBF145C3B7B0098DEDA /* UIKit.framework in Frameworks */,
+				7F537FC1145C3B7B0098DEDA /* Foundation.framework in Frameworks */,
+				7F537FC3145C3B7B0098DEDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F537FDA145C3B7B0098DEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F537FE0145C3B7B0098DEDA /* SenTestingKit.framework in Frameworks */,
+				7F537FE1145C3B7B0098DEDA /* UIKit.framework in Frameworks */,
+				7F537FE2145C3B7B0098DEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F537FAF145C3B7A0098DEDA = {
+			isa = PBXGroup;
+			children = (
+				DB0D08AE1754F3CA0089CD9D /* icon@2x.png */,
+				DB0D08AC1754F3C60089CD9D /* icon.png */,
+				7F537FF6145C3BA80098DEDA /* CoreBluetooth.framework */,
+				7F537FC4145C3B7B0098DEDA /* FitbitTestApp */,
+				7F537FE5145C3B7B0098DEDA /* FitbitTestApp Tests */,
+				7F537FBD145C3B7B0098DEDA /* Frameworks */,
+				7F537FBB145C3B7B0098DEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F537FBB145C3B7B0098DEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F537FBA145C3B7B0098DEDA /* FitbitTestApp.app */,
+				7F537FDE145C3B7B0098DEDA /* FitbitTestAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F537FBD145C3B7B0098DEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F537FBE145C3B7B0098DEDA /* UIKit.framework */,
+				7F537FC0145C3B7B0098DEDA /* Foundation.framework */,
+				7F537FC2145C3B7B0098DEDA /* CoreGraphics.framework */,
+				7F537FDF145C3B7B0098DEDA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F537FC4145C3B7B0098DEDA /* FitbitTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D08A3174FF39B0089CD9D /* NSData+HexDump.h */,
+				DB0D08A4174FF39C0089CD9D /* NSData+HexDump.m */,
+				7F537FCD145C3B7B0098DEDA /* AppDelegate.h */,
+				7F537FCE145C3B7B0098DEDA /* AppDelegate.m */,
+				7F537FD0145C3B7B0098DEDA /* MainStoryboard_iPhone.storyboard */,
+				7F537FD3145C3B7B0098DEDA /* MainStoryboard_iPad.storyboard */,
+				7F537FD6145C3B7B0098DEDA /* FBViewController.h */,
+				7F537FD7145C3B7B0098DEDA /* FBViewController.m */,
+				7F537FC5145C3B7B0098DEDA /* Supporting Files */,
+				DB5702CC174ECC1A00FCA691 /* PacketHandler.h */,
+				DB5702CD174ECC1A00FCA691 /* PacketHandler.m */,
+				DB0D089D174FDC1F0089CD9D /* FitbitDevice.h */,
+				DB0D089E174FDC1F0089CD9D /* FitbitDevice.m */,
+				DB0D08A0174FE0200089CD9D /* BTPeripheral.h */,
+				DB0D08A1174FE0200089CD9D /* BTPeripheral.m */,
+				DB0D08A6175101F10089CD9D /* FBTrackerAuth.h */,
+				DB0D08A7175101F10089CD9D /* FBTrackerAuth.m */,
+				DB53FE89176249ED00E3F2E8 /* TrackerList.h */,
+				DB53FE8A176249ED00E3F2E8 /* TrackerList.m */,
+				DB53FE8B176249ED00E3F2E8 /* TrackerList.xib */,
+			);
+			name = FitbitTestApp;
+			path = "FitbitTestApp";
+			sourceTree = "<group>";
+		};
+		7F537FC5145C3B7B0098DEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F537FC6145C3B7B0098DEDA /* FitbitTestApp-Info.plist */,
+				7F537FC7145C3B7B0098DEDA /* InfoPlist.strings */,
+				7F537FCA145C3B7B0098DEDA /* main.m */,
+				7F537FCC145C3B7B0098DEDA /* FitbitTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F537FE5145C3B7B0098DEDA /* FitbitTestApp Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7F537FE6145C3B7B0098DEDA /* Supporting Files */,
+			);
+			name = "FitbitTestApp Tests";
+			path = "FitbitTestAppTests";
+			sourceTree = "<group>";
+		};
+		7F537FE6145C3B7B0098DEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F537FE7145C3B7B0098DEDA /* FitbitTestAppTests-Info.plist */,
+				7F537FE8145C3B7B0098DEDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F537FB9145C3B7B0098DEDA /* FitbitTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F537FF0145C3B7B0098DEDA /* Build configuration list for PBXNativeTarget "FitbitTestApp" */;
+			buildPhases = (
+				7F537FB6145C3B7B0098DEDA /* Sources */,
+				7F537FB7145C3B7B0098DEDA /* Frameworks */,
+				7F537FB8145C3B7B0098DEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitbitTestApp;
+			productName = "FitbitTestApp";
+			productReference = 7F537FBA145C3B7B0098DEDA /* FitbitTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F537FDD145C3B7B0098DEDA /* FitbitTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F537FF3145C3B7B0098DEDA /* Build configuration list for PBXNativeTarget "FitbitTestAppTests" */;
+			buildPhases = (
+				7F537FD9145C3B7B0098DEDA /* Sources */,
+				7F537FDA145C3B7B0098DEDA /* Frameworks */,
+				7F537FDB145C3B7B0098DEDA /* Resources */,
+				7F537FDC145C3B7B0098DEDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F537FE4145C3B7B0098DEDA /* PBXTargetDependency */,
+			);
+			name = FitbitTestAppTests;
+			productName = "FitbitTestAppTests";
+			productReference = 7F537FDE145C3B7B0098DEDA /* FitbitTestAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F537FB1145C3B7A0098DEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "cmw";
+			};
+			buildConfigurationList = 7F537FB4145C3B7A0098DEDA /* Build configuration list for PBXProject "FitbitTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F537FAF145C3B7A0098DEDA;
+			productRefGroup = 7F537FBB145C3B7B0098DEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F537FB9145C3B7B0098DEDA /* FitbitTestApp */,
+				7F537FDD145C3B7B0098DEDA /* FitbitTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F537FB8145C3B7B0098DEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F537FC9145C3B7B0098DEDA /* InfoPlist.strings in Resources */,
+				7F537FD2145C3B7B0098DEDA /* MainStoryboard_iPhone.storyboard in Resources */,
+				7F537FD5145C3B7B0098DEDA /* MainStoryboard_iPad.storyboard in Resources */,
+				DB0D08AD1754F3C60089CD9D /* icon.png in Resources */,
+				DB0D08AF1754F3CA0089CD9D /* icon@2x.png in Resources */,
+				DB53FE8D176249ED00E3F2E8 /* TrackerList.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F537FDB145C3B7B0098DEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F537FEA145C3B7B0098DEDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F537FDC145C3B7B0098DEDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F537FB6145C3B7B0098DEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F537FCB145C3B7B0098DEDA /* main.m in Sources */,
+				7F537FCF145C3B7B0098DEDA /* AppDelegate.m in Sources */,
+				7F537FD8145C3B7B0098DEDA /* FBViewController.m in Sources */,
+				DB5702CE174ECC1A00FCA691 /* PacketHandler.m in Sources */,
+				DB0D089F174FDC1F0089CD9D /* FitbitDevice.m in Sources */,
+				DB0D08A2174FE0200089CD9D /* BTPeripheral.m in Sources */,
+				DB0D08A5174FF39C0089CD9D /* NSData+HexDump.m in Sources */,
+				DB0D08A8175101F10089CD9D /* FBTrackerAuth.m in Sources */,
+				DB53FE8C176249ED00E3F2E8 /* TrackerList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F537FD9145C3B7B0098DEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F537FE4145C3B7B0098DEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F537FB9145C3B7B0098DEDA /* FitbitTestApp */;
+			targetProxy = 7F537FE3145C3B7B0098DEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F537FC7145C3B7B0098DEDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F537FC8145C3B7B0098DEDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F537FD0145C3B7B0098DEDA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F537FD1145C3B7B0098DEDA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7F537FD3145C3B7B0098DEDA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F537FD4145C3B7B0098DEDA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7F537FE8145C3B7B0098DEDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F537FE9145C3B7B0098DEDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F537FEE145C3B7B0098DEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F537FEF145C3B7B0098DEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F537FF1145C3B7B0098DEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitbitTestApp/FitbitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "FitbitTestApp/FitbitTestApp-Info.plist";
+				PRODUCT_NAME = FitbitTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F537FF2145C3B7B0098DEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitbitTestApp/FitbitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "FitbitTestApp/FitbitTestApp-Info.plist";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-Warc-performSelector-leaks",
+				);
+				PRODUCT_NAME = FitbitTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F537FF4145C3B7B0098DEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitbitTestApp.app/FitbitTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitbitTestApp/FitbitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "FitbitTestAppTests/FitbitTestAppTests-Info.plist";
+				PRODUCT_NAME = FitbitTestAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F537FF5145C3B7B0098DEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitbitTestApp.app/FitbitTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitbitTestApp/FitbitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "FitbitTestAppTests/FitbitTestAppTests-Info.plist";
+				PRODUCT_NAME = FitbitTestAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F537FB4145C3B7A0098DEDA /* Build configuration list for PBXProject "FitbitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F537FEE145C3B7B0098DEDA /* Debug */,
+				7F537FEF145C3B7B0098DEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F537FF0145C3B7B0098DEDA /* Build configuration list for PBXNativeTarget "FitbitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F537FF1145C3B7B0098DEDA /* Debug */,
+				7F537FF2145C3B7B0098DEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F537FF3145C3B7B0098DEDA /* Build configuration list for PBXNativeTarget "FitbitTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F537FF4145C3B7B0098DEDA /* Debug */,
+				7F537FF5145C3B7B0098DEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F537FB1145C3B7A0098DEDA /* Project object */;
+}
